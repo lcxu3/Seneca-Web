@@ -1,0 +1,67 @@
+@media  screen {
+
+
+
+    html, body {
+        font-size: 1.5em;
+    }
+
+    #info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 80px;
+    }
+    
+    .info-headers {
+        height: auto;
+        max-height: 100px;
+    }
+    
+    #basic-info{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+
+
+
+
+
+
+html, body{ 
+	background-color: #3d6cb9;
+	margin: 0; 
+}
+
+
+.primary-text-color { 
+	color: black; 
+}
+
+nav {
+	float: left;
+	width: 30%;
+	background: blue;
+	padding: 20px;
+  }
+
+  article {
+	float: right;
+	padding: 20px;
+	width: 70%;
+	
+  }
+
+  p{
+	float: left;
+	padding: 20px;
+	width: 70%;
+	
+  }
+
+  section {
+	content: "";
+	display: table;
+	clear: both;
+  }
